@@ -1,0 +1,33 @@
+@media screen and (min-width: 480px) {
+    .container {
+        width: 428px;
+    }
+
+    .team-container-mini {
+        width: 296px;
+    }
+
+    .section-hero {
+        background-image: var(--gradient-hero), url(../images/hero-mobile-img1x.jpg);
+        background-size: cover;
+    }
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .section-hero {
+        background-image: var(--gradient-hero), url(../images/hero-mobile-img2x.jpg);
+    }
+}
+
+
+@media screen and (min-width: 428px) {
+    .modal {
+        width: 392px;
+    }
+
+   .socials-list-mobile-menu {
+        gap: 56px;
+    }
+}
